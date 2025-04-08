@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { ThemeProvider } from '../providers/themeProvider.jsx';
+import { ThemeProvider } from '../providers/themeProvider';
 
 export const renderWithProviders = (ui, { theme = 'light', ...options }) => {
   const Wrapper = ({ children }) => {
